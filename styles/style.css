@@ -2,7 +2,7 @@
     --Background-color: #00030C;
     --cor-do-texto-primaria: #FFFFFF;
     --cor-do-texto-pequeno: #C0C0C0;
-
+    --cor-do-botao-principal: #167BF7;
 }
 
 *{
@@ -18,7 +18,21 @@ body{
 .principal{
 
     background-image: URL("../images/Background.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.container{
     height: 100vh;
+}
+
+.container__botao-principal{
+    text-decoration: none;
+    background-color: var(--cor-do-botao-principal);
+    color: var(--cor-do-texto-primaria);
+    padding: 16px;
+    border-radius: 8px;
 
 }
 
