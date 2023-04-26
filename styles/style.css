@@ -1,0 +1,27 @@
+:root{
+    --Background-color: #00030C;
+    --cor-do-texto-primaria: #FFFFFF;
+    --cor-do-texto-pequeno: #C0C0C0;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--Background-color);
+    color: var(--cor-do-texto-primaria);
+}
+
+.principal{
+
+    background-image: URL("../images/Background.svg");
+    height: 100vh;
+
+}
+
+.texto-pequeno{
+    color: var(--cor-do-texto-pequeno);
+}
