@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 :root{
     --Background-color: #00030C;
     --cor-do-texto-primaria: #FFFFFF;
@@ -13,6 +15,7 @@
 body{
     background-color: var(--Background-color);
     color: var(--cor-do-texto-primaria);
+    font-family: "inter", sans-serif;
 }
 
 .principal{
@@ -41,6 +44,12 @@ body{
     
 }
 
+.principal__conteudo__apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .principal__conteudo__titulo{
 font-family: 'Inter', sans-serif;
 text-align: center;
@@ -49,9 +58,12 @@ font-weight: 700;
 font-size: 28px;
 }
 
-img{
+.principal__conteudo__imagem-combo{
     width: 348px;
     height: 100px;
+
+    margin-top: 22px;
+    margin-bottom: 54px;
 
     animation: pulse 2s infinite;
 }
@@ -73,8 +85,12 @@ img{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 60%;
+    width: 90%;
     gap: 16px;
+    font-weight: 400;
+    font-size: 16px;
+
+    margin-bottom: 10px;
 }
 
 .container__botao-principal{
@@ -104,4 +120,6 @@ img{
 
 .texto-pequeno{
     color: var(--cor-do-texto-pequeno);
+    font-weight: 400;
+    font-size: 12px;
 }
