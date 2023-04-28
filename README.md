@@ -4,8 +4,8 @@
 
 | Parte do Projeto | Status |
 | ---------------- | ------ |
-| Área Principal   | Terminado |
-| Área 2   | Em desenvolvimento |
+| Área Principal   | Finalizado |
+| Área 2   | Finalizado |
 | Área 3   | Em desenvolvimento |
 | Footer  | Em desenvolvimento |
 
