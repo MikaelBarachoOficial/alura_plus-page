@@ -156,3 +156,18 @@ body{
     width: 162.68px;
     text-align: center;
 }
+
+.dispositivos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.dispositivos__lista{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+    text-align: center;
+}
