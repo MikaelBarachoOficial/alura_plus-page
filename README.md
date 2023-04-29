@@ -8,3 +8,4 @@
 | Área 2   | Finalizado |
 | Área 3   | Finalizado |
 | Footer  | Finalizado |
+| Responsividade | Em Desenvolvimento |
